@@ -1,0 +1,236 @@
+
+body{
+    margin:auto;
+}
+/*search*/
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+
+a{
+    text-decoration: none;
+}
+.container-fluid{
+   height:500px;
+   width:100%;
+   background-image: url("images/food-wallpaper.png");
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.btn{
+    background-color:white ;
+
+}
+.col{
+    justify-content: flex-end;
+}
+#coupon{
+    position:absolute;
+    height:10px;
+    width:10px;
+    margin-left: 26%;
+    background-color:gray;
+    margin-top:1%;
+    z-index:1;
+}
+#coupon>img{
+    height:400px;
+    width:800px;
+    z-index:100;
+    background-size: cover;
+}
+
+#logo{
+    height:125px;
+    width:125px;
+    align-items: center;
+    justify-content:center;
+    display:flex;
+    background-color: white;
+    border-radius: 50%;
+    font-weight:bold;
+    margin:auto;
+    margin-left: -1%;
+    margin-top: -4%;
+    position: absolute;
+    font-size:60px;
+    color:#df7839
+}
+
+.rest_heading{
+    margin-left:1%;
+    margin-top:6%;
+}
+.search{
+    width:60%;
+    margin:auto;
+}
+.dropdown-toggle{
+    height:80px;
+    margin-left: 35%;
+    margin-top: 0px;
+    position: absolute;
+    color:black;
+}
+#restaurants{
+    height:20px;
+    width:30%;
+}
+.dropdown{
+    height:60px;
+    width:60%;
+    margin-left: 27%;
+    margin-top: -3%;
+    position: absolute;
+}
+select{
+    height:60px;
+    width:35%
+}
+
+.restaurantSelect{
+    width:50%
+}
+/*search ends*/
+
+/*Menu*/
+.menu{
+    height:800px;
+}
+#quickSearch{
+    display:block;
+    color:#ac2e31;
+    font-size:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left: 7%;
+}
+#quickSearch:hover{
+    color:rgb(218, 104, 38);
+}
+#quickHeading{
+    display:block;
+    color:#a19f9f;
+    font-size:25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    margin-left:7%; 
+    line-height: 1.5; 
+}
+
+#quickHeading:hover{
+    color:#d4960e;
+}
+a{
+    text-decoration:none;
+}
+.mainTile{
+   height:100%; 
+   width:90%;
+   margin-left:76px;
+   margin-top:28px;
+}
+.card{
+    float:left;
+}
+a{
+    text-decoration: none;
+}
+.card-img-top{
+    height:500px;
+    width:100%;
+}
+.card:hover{
+    transform:scale(1.1);
+ }
+.componentSubHeading{
+    color:gray;
+    font-size: 15px;
+}
+@media screen and (max-width:1600px){
+    body{
+        background-color: rgb(210, 231, 241);
+    }
+}
+
+@media screen and (max-width:1400px){
+    body{
+        background-color: rgb(168, 221, 201);
+    }
+    .btn{
+        margin-left:-4%;
+
+    }
+}
+
+@media screen and (max-width:1200px){
+    body{
+        background-color: rgb(245, 197, 242);
+    }
+    .menu{
+        height:1100px;
+    }
+    .dropdown{
+        margin-left:28%;
+
+    }
+    
+    .rest_heading{
+        margin-top:10%;
+    }
+    
+}
+
+@media screen and (max-width:1000px){
+    body{
+        background-color: rgb(215, 230, 178);
+    }
+    .menu{
+        height:1100px;
+    }
+    .dropdown{
+        margin-left:30%;
+
+    }
+    
+     
+}
+
+@media screen and (max-width:800px){
+    body{
+        background-color: rgb(224, 201, 182);
+    }
+   
+    #logo{
+        margin-top:-8%;
+    }
+    .rest_heading{
+        margin-top:17%;
+    }
+    
+    .dropdown{
+        margin-left: 27%;
+        margin-top: -3%;
+    }
+    .menu{
+        height:1100px;
+    }    
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-color: rgb(183, 233, 195);
+    }
+    .menu{
+        height:1900px;
+    } 
+    .rest_heading{
+        margin-top:24%;
+    }
+    .dropdown{
+        margin-left: 25%;
+        margin-top: 0%;
+    }
+}
