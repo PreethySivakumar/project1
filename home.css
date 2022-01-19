@@ -193,7 +193,7 @@ a{
     height:50px;
 }
 .card-body{
-    color:white;
+   background-color:white;
 }
 .card-text{
     color:blue;
