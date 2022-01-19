@@ -191,7 +191,12 @@ a{
 }
 .card-img-top{
     height:50px;
-
+}
+.card-body{
+    color:white;
+}
+.card-text{
+    color:blue;
 }
 .card:hover{
     transform:scale(1.1);
