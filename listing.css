@@ -139,13 +139,13 @@ body{
  }
  @media screen and (max-width:1600px){
      body{
-         background-color: rgb(214, 234, 253);
+         background-color: rgb(196, 211, 224);
      }
  }
  @media screen and (max-width:1400px){
-     body{
+    /* body{
          background-color: rgb(181, 183, 184);
-     }
+     }*/
      .cuisinePrice{
          margin-top:-17%;
          font-size:17px;
@@ -171,9 +171,9 @@ body{
      }
  }
  @media screen and (max-width:1200px){
-     body{
+    /* body{
          background-color: rgb(245, 185, 242);
-     }
+     }*/
      .content{
          width:67%;
          height:1000px;
@@ -197,9 +197,9 @@ body{
      } 
  }
  @media screen and (max-width:1000px){
-     body{
+   /*  body{
          background-color: rgb(157, 216, 20);
-     }
+     }*/
      #listingContainer{
          margin-left:-2%;
      }
@@ -234,9 +234,9 @@ body{
  }
  
  @media screen and (max-width:800px){
-     body{
+     /*body{
          background-color: rgb(218, 108, 19);
-     }
+     }*/
      .content{
          width:60%;
          height:1000px;
@@ -286,9 +286,9 @@ body{
      }
  }
  @media screen and (max-width:600px){
-     body{
+    /* body{
          background-color: rgb(218, 19, 185);
-     }
+     }*/
      .content{
          width:60%;
          height:1000px;
