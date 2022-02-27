@@ -60,7 +60,7 @@ body{
  
  .content{
      width:70%;
-     height:1500px;
+     height:1200px;
      display:inline-block;
      margin-left:4%;
  }
@@ -139,7 +139,7 @@ body{
  }
  @media screen and (max-width:1600px){
      body{
-         background-color: rgb(196, 211, 224);
+         background-color: rgb(174, 192, 207);
      }
  }
  @media screen and (max-width:1400px){
