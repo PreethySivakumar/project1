@@ -443,21 +443,21 @@ a{
     }
     
     .rest_heading{
-        margin-top:10%;
+        margin-top:13%;
     }
     .menu{
         height:550px;
-        margin-left: -5%;
+        margin-left: 3%;
     }
      .places{
-        margin-left:3%;
+        margin-left:5%;
         margin-top:4%;
         height:200px;
         width:90%;
         display: inline-block;
     }
     .place1{
-        margin-left:1%;
+        margin-left:5%;
         width:200px;
         display: inline-block;
         font-size: 19px;
