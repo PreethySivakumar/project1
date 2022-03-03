@@ -4,7 +4,7 @@ body{
  }
  #header{
      height: 60px;
-     background-color: #e09c83;
+     background-color: #eea185;
  }
  hr{
      color:black;
@@ -137,15 +137,15 @@ body{
      margin-left:25%;
      display:inline-block;
  }
- @media screen and (max-width:1600px){
+/* @media screen and (max-width:1600px){
      body{
-         background-color: rgb(174, 192, 207);
+         background-color: rgb(255, 255, 255);
      }
  }
  @media screen and (max-width:1400px){
     /* body{
          background-color: rgb(181, 183, 184);
-     }*/
+    }
      .cuisinePrice{
          margin-top:-17%;
          font-size:17px;
@@ -173,7 +173,7 @@ body{
  @media screen and (max-width:1200px){
     /* body{
          background-color: rgb(245, 185, 242);
-     }*/
+     }
      .content{
          width:67%;
          height:1000px;
@@ -199,7 +199,7 @@ body{
  @media screen and (max-width:1000px){
    /*  body{
          background-color: rgb(157, 216, 20);
-     }*/
+     }
      #listingContainer{
          margin-left:-2%;
      }
@@ -236,7 +236,7 @@ body{
  @media screen and (max-width:800px){
      /*body{
          background-color: rgb(218, 108, 19);
-     }*/
+     }
      .content{
          width:60%;
          height:1000px;
@@ -288,7 +288,7 @@ body{
  @media screen and (max-width:600px){
     /* body{
          background-color: rgb(218, 19, 185);
-     }*/
+     }
      .content{
          width:60%;
          height:1000px;
@@ -333,6 +333,200 @@ body{
          line-height: 1.88;
          color: #192f60;
      }
+ }*/
+ 
+@media (min-width: 576px) { 
+   /* body{
+        background-color: plum;
+
+ }*/
+.content{
+    width:60%;
+    height:1000px;
+    margin-top:2%;
+}
+.content1{
+    width:120%;
+}
+.cuisinePrice{
+    margin-top:-21%;
+    font-size: 15px;
+    width:155px;
+    margin-left: 55%;
+}   
+.cuisines{
+    margin-top:-5%;
+    font-size: 15px;
+    width:155px;
+}
+.font2{
+    font-family: Poppins;
+    font-size: 13px;
+    font-weight: 500;
+    margin-left:43%;
+    margin-top:-2%;
+    color: #192f60;
+    line-height: 1.88;
+  
+  } 
+.font3{
+    margin-top:-1%;
+    font-size: 13px;
+}
+.container{
+    width:30%;
+    margin-left:3%;
+    margin-top:12%;
+}
+.content2Heading{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.88;
+    color: #192f60;
+}
+}
+
+@media (min-width: 768px) {
+   /* body{
+    background-color: rgb(245, 197, 242);
+    }*/
+    .content{
+        width:60%;
+        height:1000px;
+        margin-top:2%;
+    }
+    .content1{
+        width:90%;
+    }
+    .cuisinePrice{
+        margin-top:-25%;
+        font-size: 15px;
+        width:155px;
+        margin-left: 55%;
+    }   
+    .cuisines{
+        margin-top:2%;
+        font-size: 15px;
+        width:155px;
+    }
+    .container{
+        width:30%;
+        margin-left:3%;
+        margin-top:13%;
+    } 
+    .content2Heading{
+        margin-left:42%;
+        margin-top:-120px;
+        font-family: Poppins;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1.88;
+        color: #192f60;
+    }
+    .font2{
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 500;
+        margin-left:43%;
+        margin-top:-2%;
+        color: #192f60;
+        line-height: 1.88;
+      
+      } 
+    .font3{
+        margin-top:-1%;
+        font-size: 13px;
+    }
+}
+
+@media (min-width: 992px) {
+   /* body{
+    background-color: orange;
+    }*/
+    #listingContainer{
+        margin-left:-2%;
+    }
+    .content{
+        width:60%;
+        height:1000px;
+        margin-top:2%;
+    }
+    .container{
+        width:30%;
+        margin-left:3%;
+        margin-top:6%;
+    }
+    .content1{
+        width:85%;
+    }
+    .cuisinePrice{
+        margin-top:-19%;
+        font-size: 15px;
+        width:155px;
+        margin-left: 45%;
+    }   
+    .cuisines{
+        margin-top:2%;
+        font-size: 15px;
+        width:155px;
+       
+    } 
+    .font3{
+        margin-top:-1%;
+    }
+}
+
+@media (min-width: 1200px) { 
+    /*body{
+    background-color: red;
+    }*/
+    .content{
+        width:67%;
+        height:1000px;
+        margin-top:2%;
+    }
+    .cuisinePrice{
+        margin-top:-21%;
+        font-size: 15px;
+        width:155px;
+        margin-left: 23%;
+    }   
+    .cuisines{
+        margin-top:0%;
+        font-size: 15px;
+        width:155px;
+    }
+    .container{
+        width:30%;
+        margin-left:1%;
+        margin-top:8%;
+    } 
  }
- 
- 
+@media (min-width: 1400px) {
+   /* body{
+    background-color: gray;
+    }*/
+    .cuisinePrice{
+        margin-top:-17%;
+        font-size:17px;
+    }   
+    .cuisines{
+        margin-top:2%;
+    } 
+    .content{
+        width:70%;
+        height:900px;
+    }
+    .content2Heading{
+        font-size: 23px;
+    }
+    .container{
+        width:30%;
+        margin-left:2%;
+        margin-top:8%;
+    } 
+    .content1{
+        width:65%;
+        height:320px;
+    }
+}

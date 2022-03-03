@@ -78,6 +78,9 @@ a{
     font-size:60px;
     color:#df7839
 }
+.justify-content-start{
+    margin-top:2%;
+}
 .fa-cloud-sun{
     height:20px;
     width:50px;
@@ -86,10 +89,22 @@ a{
     height:20px;
     width:50px;
 }
-.rest_heading{
-    margin-left:1%;
-    margin-top:6%;
+
+#out{
+    margin-top:1%;
+    margin-left:0%;
 }
+#address{
+    margin-top:1%;
+    margin-left:0%;
+}
+.rest_heading{
+    margin-left:7%;
+    margin-top:9%;
+    font-size:30px;
+    color:#df7839;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}    
 .search{
     width:60%;
     margin:auto;
@@ -100,6 +115,7 @@ a{
     margin-top: 0px;
     position: absolute;
     color:black;
+    
 }
 #restaurants{
     height:20px;
@@ -108,8 +124,8 @@ a{
 .dropdown{
     height:60px;
     width:60%;
-    margin-left: 27%;
-    margin-top: -25%;
+    margin-left: 29%;
+    margin-top: -19%;
     position: absolute;
 }
 select{
@@ -134,7 +150,7 @@ select{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     margin-left: 7%;
-    margin-top:7%;
+    margin-top:2%;
 }
 #quickSearch:hover{
     color:rgb(218, 104, 38);
@@ -204,91 +220,31 @@ a{
 .footer_row1{
     width:200px;
     margin-left:7%;
-    display: inline-block;
+    margin-top:0%;
+    float: left;
 }
 .footer_row2{
     width:200px;
-    margin-left:4%;
-    display: inline-block;
-    margin-top:2%;
-}
-@media screen and (max-width:1600px){
-    body{
-        background-color: rgb(210, 231, 241);
-    }
+    margin-left:7%;
+    float: left;
+    margin-top:1%;
 }
 
-@media screen and (max-width:1400px){
+@media (min-width: 576px) { 
     body{
-        background-color: rgb(168, 221, 201);
+        background-color: plum;
     }
-    .btn{
-        margin-left:-4%;
-
-    }
-}
-
-@media screen and (max-width:1200px){
-    body{
-        background-color: rgb(245, 197, 242);
-    }
-    .menu{
-        height:1100px;
-    }
-    .dropdown{
-        margin-left:28%;
-
-    }
-    
-    .rest_heading{
-        margin-top:10%;
-    }
-    
-}
-
-@media screen and (max-width:1000px){
-    body{
-        background-color: rgb(215, 230, 178);
-    }
-    .menu{
-        height:1100px;
-    }
-    .dropdown{
-        margin-left:30%;
-
-    }
-    
-     
-}
-
-@media screen and (max-width:800px){
-    body{
-        background-color: rgb(224, 201, 182);
-    }
-   
-    #logo{
-        margin-top:-8%;
-    }
-    .rest_heading{
-        margin-top:17%;
-    }
-    
-    .dropdown{
-        margin-left: 27%;
-        margin-top: -3%;
-    }
-    .menu{
-        height:1100px;
-    }    
-}
-
-@media screen and (max-width:600px){
-    body{
-        background-color: rgb(183, 233, 195);
-    }
+    .container-fluid{
+        height:500px;
+        width:100%;
+        background-image: url("images/food-wallpaper.png");
+        background-repeat: no-repeat;
+        background-size: cover;
+     }
     .menu{
         height:1900px;
-    } 
+        margin-left:11%;
+    }
     .rest_heading{
         margin-top:24%;
     }
@@ -296,4 +252,273 @@ a{
         margin-left: 25%;
         margin-top: 0%;
     }
+    #coupon{
+        position:absolute;
+        height:10px;
+        width:10px;
+        margin-left: 8%;
+        margin-top:-18%;
+        z-index:1;
+    }
+    #coupon>img{
+        height:400px;
+        width:500px;
+        z-index:100;
+        background-size: cover;
+    } 
+    .places{
+        margin-left:3%;
+        margin-top:6%;
+        height:350px;
+        width:90%;
+        display: inline-block;
+    }
+    .place1{
+        margin-left:3%;
+        width:200px;
+        display: inline-block;
+        font-size: 19px;
+    }
+    .heading{
+        margin-left:3%;
+      
+    }
+    .footer_row1{
+        width:200px;
+        margin-left:3%;
+        margin-top:3%;
+        float: left;
+        font-size: 11px;
+    }
+    .footer_row2{
+        width:200px;
+        margin-left:3%;
+        float: left;
+        margin-top:3%;
+        font-size: 11px;
+    }  
+ }
+
+
+@media (min-width: 768px) {
+    body{
+    background-color: rgb(245, 197, 242);
+    }
+    #logo{
+        margin-top:-8%;
+        margin-top:-45%;
+    }
+    .rest_heading{
+        margin-top:17%;
+    }
+    
+    .dropdown{
+        margin-left: 27%;
+        margin-top:-35%;
+    }
+    .menu{
+        height:1100px;
+    } 
+    .heading{
+        margin-left:3%;
+      
+    }
+    .footer_row1{
+        width:200px;
+        margin-left:3%;
+        margin-top:3%;
+        float: left;
+        font-size: 14px;
+    }
+    .footer_row2{
+        width:200px;
+        margin-left:3%;
+        float: left;
+        margin-top:3%;
+        font-size: 14px;
+    }  
+    #coupon{
+        position:absolute;
+        height:10px;
+        width:10px;
+        margin-left: 18%;
+        margin-top:-18%;
+        z-index:1;
+    }
+    #coupon>img{
+        height:400px;
+        width:500px;
+        z-index:100;
+        background-size: cover;
+    } 
+    .places{
+        margin-left:1%;
+        margin-top:4%;
+        height:210px;
+        width:90%;
+        display: inline-block;
+    }
+    .place1{
+        margin-left:2%;
+        width:200px;
+        display: inline-block;
+        font-size: 19px;
+    }
 }
+
+@media (min-width: 992px) {
+    body{
+    background-color: orange;
+    }
+    .menu{
+        height:1100px;
+    }
+    .dropdown{
+        margin-left:28%;
+        margin-top:-28%;
+    }
+    #logo{
+        margin-top:-37%;
+    }
+    .rest_heading{
+        margin-top:10%;
+    }
+    .heading{
+        margin-left:3%;
+      
+    }
+    .footer_row1{
+        width:200px;
+        margin-left:3%;
+        margin-top:3%;
+        float: left;
+        font-size: 14px;
+    }
+    .footer_row2{
+        width:200px;
+        margin-left:3%;
+        float: left;
+        margin-top:3%;
+        font-size: 14px;
+    }
+    .places{
+        margin-left:1%;
+        margin-top:4%;
+        height:180px;
+        width:70%;
+        display: inline-block;
+    }
+    .place1{
+        margin-left:-2%;
+        width:180px;
+        display: inline-block;
+        font-size: 14px;
+    }
+    #coupon{
+        position:absolute;
+        height:10px;
+        width:10px;
+        margin-left: 20%;
+        margin-top:-18%;
+        z-index:1;
+    }
+    #coupon>img{
+        height:400px;
+        width:600px;
+        z-index:100;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 1200px) { 
+    body{
+    background-color: red;
+    }
+    .dropdown{
+        margin-left:28%;
+        margin-top:-22%;
+    }
+    #logo{
+        margin-top:-30%;
+    }
+    
+    .rest_heading{
+        margin-top:10%;
+    }
+    .menu{
+        height:550px;
+        margin-left: -5%;
+    }
+     .places{
+        margin-left:3%;
+        margin-top:4%;
+        height:200px;
+        width:90%;
+        display: inline-block;
+    }
+    .place1{
+        margin-left:1%;
+        width:200px;
+        display: inline-block;
+        font-size: 19px;
+    }
+    .footer_row1{
+        width:200px;
+        margin-left:7%;
+        margin-top:3%;
+        float: left;
+        font-size: 14px;
+    }
+    .footer_row2{
+        width:200px;
+        margin-left:7%;
+        float: left;
+        margin-top:3%;
+        font-size: 14px;
+    }
+    .heading{
+        margin-left:7%;
+      
+    }
+    #coupon{
+        position:absolute;
+        height:10px;
+        width:10px;
+        margin-left: 20%;
+        margin-top:-18%;
+        z-index:1;
+    }
+    #coupon>img{
+        height:400px;
+        width:800px;
+        z-index:100;
+        background-size: cover;
+    }
+    .fa-cloud-sun{
+        height:20px;
+        width:50px;
+    }
+    .fa-lightbulb{
+        height:20px;
+        width:50px;
+    }
+ }
+@media (min-width: 1400px) {
+    body{
+    background-color: gray;
+    }
+    .btn{
+        margin-left:-4%;
+
+    }
+}
+
+
+
+
+
+
+
+
+
+
