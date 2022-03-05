@@ -9,8 +9,8 @@ body{
     padding: 0 4px;
   }
 
-a{
-    text-decoration: none;
+  a{
+    text-decoration: none  !important;
 }
 .card{
     width: 200px;
@@ -87,16 +87,16 @@ a{
 }
 .fa-lightbulb{
     height:20px;
-    width:50px;
+    width:40px;
 }
 
 #out{
     margin-top:1%;
-    margin-left:0%;
+    margin-left:1%;
 }
 #address{
     margin-top:1%;
-    margin-left:0%;
+    margin-left:1%;
 }
 .rest_heading{
     margin-left:7%;
@@ -496,11 +496,12 @@ a{
     }
     .fa-cloud-sun{
         height:20px;
-        width:50px;
+        width:40px;
     }
     .fa-lightbulb{
         height:20px;
         width:50px;
+       
     }
  }
 @media (min-width: 1400px) {

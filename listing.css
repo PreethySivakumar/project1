@@ -25,9 +25,9 @@ body{
      margin-right: 1%;
  }
  
- a{
-     text-decoration: none;
- }
+a{
+    text-decoration: none  !important;
+}
  
  .slogo{
      height:50px;

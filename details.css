@@ -1,6 +1,6 @@
 body{
     margin:auto;
-    background-color:rgb(199, 184, 199)
+    background-color:rgb(255, 248, 255)
 
 }    
 /*Header*/
@@ -12,9 +12,14 @@ body{
     margin-left: 1%;
     margin-top:-1%;
     position: absolute;
-    color:#fff;
+    color:white;
 }
-
+#icon > h1 >a {
+    color:#fff !important;
+}
+a{
+    text-decoration: none  !important;
+}
 #social{
     float:right;
     margin-right: 1%;
@@ -25,9 +30,6 @@ body{
 }
 
 /*search*/
-a{
-    text-decoration: none;
-}
 #maincontainer{
     height:700px;
     width:85%;
@@ -69,8 +71,9 @@ a{
     margin-left:2%;
 }
 .features>img{
-    height:60px;
-    width:60px;
+    height:40px;
+    width:40px;
+    margin-top:2%;
 }
 h2{
     font-size:35px;
@@ -78,6 +81,7 @@ h2{
 }
 .price{
     margin-top:20%;
+    
 }
 .bottom{
     float:left;
@@ -100,6 +104,6 @@ h2{
 
 @media screen and (max-width:1600px){
     body{
-        background-color: rgb(196, 211, 224);
+        background-color: rgb(255, 255, 255);
     }
 }
